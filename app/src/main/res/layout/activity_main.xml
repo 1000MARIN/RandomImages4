@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/text_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="그림의 위치를 기억해 주세요."
+        android:textSize="35sp"
+        android:textColor="#000000"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="100dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="130dp"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/box_be_6"
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:background="@drawable/square1"
+                android:gravity="center"
+                android:visibility="visible"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/box_bl_6"
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:background="@drawable/square2"
+                android:gravity="center"
+                android:src="@drawable/ic_baseline_wb_cloudy_24"
+                android:visibility="invisible"
+                android:onClick="onClick_6"
+                tools:ignore="ContentDescription" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="130dp"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/box_be_1"
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:background="@drawable/square1"
+                android:gravity="center"
+                android:visibility="visible"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/box_bl_1"
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:background="@drawable/square2"
+                android:gravity="center"
+                android:onClick="onClick_1"
+                android:src="@drawable/ic_baseline_wb_cloudy_24"
+                android:visibility="invisible"
+                tools:ignore="ContentDescription" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginRight="350dp"
+
+            tools:ignore="RtlHardcoded">
+
+            <ImageView
+                android:id="@+id/box_be_5"
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:background="@drawable/square1"
+                android:gravity="center"
+                android:visibility="visible"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/box_bl_5"
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:background="@drawable/square2"
+                android:gravity="center"
+                android:src="@drawable/ic_baseline_heart_24"
+                android:visibility="invisible"
+                android:onClick="onClick_5"
+                tools:ignore="ContentDescription" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            tools:ignore="RtlHardcoded">
+
+            <ImageView
+                android:id="@+id/box_q1"
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:background="@drawable/square2"
+                android:gravity="center"
+                android:visibility="invisible"
+                tools:ignore="ContentDescription" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="350dp"
+            tools:ignore="RtlHardcoded">
+
+            <ImageView
+                android:id="@+id/box_be_2"
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:background="@drawable/square1"
+                android:gravity="center"
+                android:visibility="visible"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/box_bl_2"
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:background="@drawable/square2"
+                android:gravity="center"
+                android:src="@drawable/ic_baseline_local_shipping_24"
+                android:visibility="invisible"
+                android:onClick="onClick_2"
+                tools:ignore="ContentDescription" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="100dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="130dp"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/box_be_4"
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:background="@drawable/square1"
+                android:gravity="center"
+                android:visibility="visible"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/box_bl_4"
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:background="@drawable/square2"
+                android:gravity="center"
+                android:src="@drawable/ic_baseline_wb_cloudy_24"
+                android:visibility="invisible"
+                android:onClick="onClick_4"
+                tools:ignore="ContentDescription" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/box_be_3"
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:background="@drawable/square1"
+                android:gravity="center"
+                android:visibility="visible"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/box_bl_3"
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:background="@drawable/square2"
+                android:gravity="center"
+                android:src="@drawable/ic_baseline_wb_cloudy_24"
+                android:visibility="invisible"
+                android:onClick="onClick_3"
+                tools:ignore="ContentDescription" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="500dp"
+        android:layout_height="67dp"
+        android:background="#B6C3A2"
+        android:layout_below="@+id/mn3_2"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:textSize="41dp"
+            android:gravity="center">
+
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout>

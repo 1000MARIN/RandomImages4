@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="150sp"
+            android:gravity="center"
+            android:text="작업기억 결과"
+            android:textColor="#000000"
+            android:textSize="65dp" />
+
+        <TextView
+            android:id="@+id/resultCount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="65dp" />
+
+        <TextView
+            android:id="@+id/resultTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="65dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/next_bnt1"
+        >
+
+        <Button
+            android:id="@+id/next4_btn"
+            android:layout_width="540dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/select_btn_rec"
+            android:src="@drawable/ic_next"
+            android:padding="10dp"
+            android:text=" 전체 검사 결과 보기 >"
+            android:textColor="#6464CD"
+            android:textSize="55dp" >
+        </Button>
+    </LinearLayout>
+
+</RelativeLayout>
